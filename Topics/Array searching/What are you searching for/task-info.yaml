@@ -1,0 +1,9 @@
+type: matching
+custom_name: What are you searching for?
+files:
+  - name: main.js
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/18272#comment
+status: Solved
+record: -1

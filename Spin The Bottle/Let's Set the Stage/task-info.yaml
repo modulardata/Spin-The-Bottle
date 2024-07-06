@@ -1,0 +1,15 @@
+type: edu
+custom_name: Let's Set the Stage!
+files:
+  - name: src/index.html
+    visible: true
+    learner_created: false
+  - name: test/test.js
+    visible: false
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/45652#comment
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 17 Apr 2024 11:33:15 UTC"
+record: 1

@@ -1,0 +1,14 @@
+type: hyperskill
+title: Spin The Bottle
+language: English
+summary: "<p>\"Spin The Bottle\" is a fun and interactive web application designed\
+  \ to facilitate the random selection of players for games, activities, or any scenario\
+  \ where randomness adds excitement. Inspired by the classic party game, this project\
+  \ brings a modern twist to the concept, leveraging web technologies to create a\
+  \ dynamic and engaging user experience.</p><br/><br/>Learn more at <a href=\"https://hyperskill.org/projects/453?utm_source=ide&utm_medium=ide&utm_campaign=ide&utm_content=project-card\"\
+  >https://hyperskill.org/projects/453</a>"
+programming_language: JavaScript
+content:
+  - Spin The Bottle
+  - Topics
+mode: Study

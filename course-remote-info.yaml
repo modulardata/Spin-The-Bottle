@@ -1,0 +1,93 @@
+hyperskill_project:
+  id: 453
+  ide_files: https://cogniterra.org/media/attachments/lesson/38351/additional_files.json
+  is_template_based: false
+  use_ide: true
+update_date: "Sat, 06 Jul 2024 06:20:54 UTC"
+stages:
+  - id: 2621
+    step: 45652
+    is_completed: true
+  - id: 2622
+    step: 45653
+    is_completed: true
+  - id: 2623
+    step: 45654
+    is_completed: true
+topics:
+  0:
+    - title: Introduction to UI/UX
+      theory_id: 14603
+    - title: Layout grids
+      theory_id: 14922
+    - title: Interface elements
+      theory_id: 15253
+    - title: Block-level elements
+      theory_id: 7271
+    - title: Inline elements
+      theory_id: 7518
+    - title: What is CSS
+      theory_id: 7678
+    - title: HTML attributes id and class
+      theory_id: 7527
+    - title: Intro to HTML forms
+      theory_id: 6560
+    - title: Buttons
+      theory_id: 28053
+    - title: Tags and Attributes
+      theory_id: 7536
+    - title: HTML page structure
+      theory_id: 6491
+    - title: Intro to Lists
+      theory_id: 8178
+    - title: "Headings, Paragraphs, Comments"
+      theory_id: 21203
+  1:
+    - title: Comments
+      theory_id: 8170
+    - title: DOM
+      theory_id: 8635
+    - title: Connecting CSS to HTML
+      theory_id: 7418
+    - title: Basic syntax
+      theory_id: 7722
+    - title: CSS Selectors
+      theory_id: 7738
+    - title: Connecting JavaScript to HTML
+      theory_id: 7510
+    - title: Introduction to JavaScript
+      theory_id: 8016
+    - title: Writing first program
+      theory_id: 8154
+    - title: Multi-line programs
+      theory_id: 8162
+    - title: Declaring variables
+      theory_id: 8186
+    - title: Strings and numbers
+      theory_id: 8194
+    - title: Arithmetic operators
+      theory_id: 8372
+    - title: Functions
+      theory_id: 8388
+    - title: Defining functions
+      theory_id: 24012
+    - title: Anonymous function
+      theory_id: 26924
+    - title: Arrow Functions
+      theory_id: 8455
+    - title: Array
+      theory_id: 16141
+    - title: Introduction to Objects
+      theory_id: 8588
+    - title: Comments
+      theory_id: 7502
+    - title: "Random: getting and generating"
+      theory_id: 18841
+    - title: Intro to DOM events
+      theory_id: 10857
+    - title: DOM methods
+      theory_id: 8662
+    - title: The "addEventListener" method
+      theory_id: 8723
+    - title: Modifying DOM
+      theory_id: 21549

@@ -1,0 +1,18 @@
+type: edu
+custom_name: Spin the Wheel!
+files:
+  - name: src/index.html
+    visible: true
+    learner_created: false
+  - name: test/test.js
+    visible: false
+    learner_created: false
+  - name: src/main.js
+    visible: true
+    learner_created: true
+feedback_link: https://hyperskill.org/learn/step/45653#comment
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 18 Apr 2024 06:37:58 UTC"
+record: 2

@@ -1,0 +1,19 @@
+type: edu
+custom_name: Player Recruitment Time!
+files:
+  - name: src/index.html
+    visible: true
+    learner_created: false
+  - name: test/test.js
+    visible: false
+    learner_created: false
+  - name: src/main.js
+    visible: true
+    learner_created: true
+feedback_link: https://hyperskill.org/learn/step/45654#comment
+status: Solved
+feedback:
+  message: Well done! You've finished the project. Select a new project on <a href="https://hyperskill.org/projects">Hyperskill</a>
+    to continue learning.
+  time: "Sat, 06 Jul 2024 09:38:17 UTC"
+record: 3
