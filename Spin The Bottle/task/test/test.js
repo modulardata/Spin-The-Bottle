@@ -110,6 +110,46 @@ class Test extends StageTest {
         if (this.elementHasText(spin, spinText))
             return wrong(this.wrongTextMsg(spin, spinText));
 
+        return correct();
+
+    }), this.page.execute(async () => {
+        // test #3
+        // STAGE2 SPIN BUTTON CLICK
+
+        // check if spin button works
+        const spin = document.body.querySelector("#spin");
+        if (!spin) return wrong("The spin button is missing.");
+
+        await spin.click();
+
+        const status = document.body.querySelector("#status");
+        if (!status) return wrong("The status element is missing.");
+
+        let text = "Spinning...";
+        if (this.elementHasText("#status", text)) return wrong(this.wrongTextMsg("#status", text)
+            + "for 2 seconds before selecting a player.");
+
+        await new Promise(resolve => setTimeout(resolve, 3000));
+
+        let statusText = status.innerText;
+        let statusList = [statusText];
+        const players = Array.from(document.querySelectorAll('#players li'));
+
+        if (!players.some(player => statusText.includes(player.textContent)))
+            return wrong("The element with selector of \"#status\" should display the selected player.");
+
+        // check if its random
+        await spin.click();
+        await new Promise(resolve => setTimeout(resolve, 3000));
+        statusList.push(status.innerText);
+
+        await spin.click();
+        await new Promise(resolve => setTimeout(resolve, 3000));
+        statusList.push(status.innerText);
+
+        if (statusList[0] === statusList[1] && statusList[1] === statusList[2])
+            return wrong("The selected player should be random.");
+
         await new Promise(resolve => setTimeout(resolve, 3000));
 
         return correct();
